@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<script src="/scripts/script.js"></script>
+		<link rel="stylesheet" href="/styles/style.css">
+	</head>
+	<body>
+		<div class="snake__wrapper">
+			<div class="snake__legend">
+				<div class="snake__score">Счет: <span id="score">0</span></div>
+				<div class="snake__top">Рекорд: <span id="top">---</span></div>
+			</div>
+			<div id="snake" class="snake"></div>
+			<div class="snake__actions">
+				<button id="start-pause" onclick="startGame()">►</button>
+				<button id="restart" disabled onclick="restartGame()">Restart</button>
+			</div>
+		</div>
+	</body>
+</html>
